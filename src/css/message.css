@@ -1,0 +1,32 @@
+.message {
+    position: absolute;
+    inset: 4px;
+    background-color: rgba(var(--white), 0.9);
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.message__body {
+}
+
+.message__row {
+    margin-bottom: 12px;
+}
+
+.message__row.between {
+    display: flex;
+    justify-content: space-around;
+}
+
+.message__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message__row:last-child {
+    margin-bottom: 0;
+}

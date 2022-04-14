@@ -1,0 +1,29 @@
+.variables {
+    padding: 14px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 14px;
+}
+
+.variables__item {
+    margin-bottom: 8px;
+}
+
+.variables__item:last-child {
+    margin-bottom: 0;
+}
+
+.variable {
+    display: flex;
+    align-items: center;
+    grid-gap: 14px;
+}
+
+.variable__name {
+}
+
+.variable__equal {
+    padding: 4px 8px;
+    color: var(--gray);
+}
+

@@ -1,0 +1,47 @@
+.tag {
+    background-color: var(--grayLight);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+    display: inline-block;
+}
+
+.tag.yellow {
+    background-color: var(--yellow);
+}
+
+.tag.orange {
+    background-color: var(--orange);
+}
+
+.tag.red {
+    background-color: var(--red);
+}
+
+.tag.pinky {
+    background-color: var(--pinky);
+}
+
+.tag.pink {
+    background-color: var(--pink);
+}
+
+.tag.violet {
+    background-color: var(--violet);
+}
+
+.tag.blue {
+    background-color: var(--blue);
+}
+
+.tag.skyBlue {
+    background-color: var(--skyBlue);
+}
+
+.tag.azure {
+    background-color: var(--azure);
+}
+
+.tag.green {
+    background-color: var(--green);
+}
